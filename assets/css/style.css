@@ -2592,6 +2592,7 @@ textarea {
 
 .contact-list li .material-icons {
     margin-right: 0.625rem;
+    margin-left: 0.625rem;
     color: var(--accent-color);
 }
 
@@ -2625,6 +2626,7 @@ textarea {
 }
 
 .contact-list .footer-contact-info {
+    margin-left: 30px;
     opacity: 1;
 }
 
@@ -2640,6 +2642,10 @@ textarea {
 
 .footer-contact-info p:last-child {
     margin-bottom: 0;
+}
+
+.footer-contact-icon {
+    margin-bottom: 0.25rem;
 }
 
 .contact-form-padding {
@@ -4346,3 +4352,4 @@ a {
   
   /* 显示下拉内容时更改下拉按钮的背景颜色 */
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
