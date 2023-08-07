@@ -2644,6 +2644,7 @@ textarea {
     margin-bottom: 0;
 }
 
+
 .footer-contact-icon {
     margin-bottom: 0.25rem;
 }
@@ -3516,7 +3517,8 @@ body.mmm-open .mmm {
 }
 
 .thumb-bordered__body {
-	padding: 20px;
+	padding: 10px;  
+    height: 160px;
 	border-width: 0 1px 1px 1px;
 	border-style: solid;
 	border-color: #e3e3e3;
@@ -3711,7 +3713,7 @@ html.lt-ie-10 .range > .cell-md-3 {
 	display: inline-block;
 	width: 100%;
 	max-width: 100%;
-	height: auto;
+	height: 275px;
 }
 
 img-people{
@@ -4353,3 +4355,20 @@ a {
   /* 显示下拉内容时更改下拉按钮的背景颜色 */
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
+  .img-box{
+    padding: 10px;
+    display: inline-block;
+  }
+
+  .img-box h5{
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .img-box h6{
+    font-size: 20px;
+    text-align: center;
+    line-height:150%;
+
+  }
