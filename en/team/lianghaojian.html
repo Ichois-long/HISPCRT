@@ -20,7 +20,15 @@
     <link rel="preload" href="../../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="../../assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="../../assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+	<style type="text/css">
+		#sub_menu{
+			display: none;
 
+		}
+		ul li:hover{
+			cursor: pointer;
+		}
+	</style>
 </head>
 
 <body>
@@ -53,6 +61,14 @@
                         </li>
                         <li>
                             <a href="../contacts.html">Contacts</a>
+            </li>
+
+            <li class="sub_menu" onclick = "f('sub_menu')" >Languages
+                <ul id="sub_menu">
+                    <li><a class="sub_menu" href="../../index.html">English</a></li>
+                    <li><a class="sub_menu" href="../../zh/index.html">简体中文</a></li>
+                </ul>
+            </li>
                         </li>
                     </ul>
                 </div>
@@ -63,7 +79,7 @@
                     <div class="container">
                         <div class="row flex-nowrap align-items-center justify-content-between">
                             <div class="col-auto header-fixed-col logo-wrapper">
-                                <a href="index.html" class="logo" title="HiGISX">
+                                <a href="../../index.html" class="logo" title="HiGISX">
                                     <img src="../../assets/img/favicon/logo-ico.png" alt="HiGISX">
                                     <img src="../../assets/img/favicon/HIGISX-LOGO.png" alt="HiGISX">
                                 </a>
@@ -215,7 +231,7 @@
                                                             [1]	Liang H, Wang S, Li H, et al. A Trade-Off Algorithm for Solving p-Center Problems with a Graph Convolutional Network[J]. ISPRS International Journal of Geo-Information, 2022, 11(5): 270.
                                                             <br>[2]	Chen X, Wang S, Li H, et al. Ndist2vec: Node with Landmark and New Distance to Vector Method for Predicting Shortest Path Distance along Road Networks[J]. ISPRS International Journal of Geo-Information, 2022, 11(10): 514.
                                                             <br>[3]	Liang H, Wang S, Li H, et al. SpoNet: Learn to Solve Spatial Optimization Problem with Reinforcement Learning (Under review)
-                                                            Liang H, Wang S, et al. DeepHullNet: A Deep Learning Approach to Solving the Convex Hull and Concave Hull Problems with Transform (Under review)
+                                                            <br>Liang H, Wang S, et al. DeepHullNet: A Deep Learning Approach to Solving the Convex Hull and Concave Hull Problems with Transform (Under review)
                                                             <br>[4]	Haojian Liang, Shaohua Wang, et al. A Graph Convolutional Neural Network with Attention Model for Solving Multiple Traveling Salesman Problems in City Logistics.
                                                             <br>[5]	Yang Zhong, Shaohua Wang*, Haojian Liang. A Graph Convolution Network Approach Applied to the Maximal Coverage Billboards Location Problem
                                                         </p>
@@ -298,6 +314,19 @@
     <script src="../../assets/libs/pristine/pristine.min.js"></script>
     <script src="../../assets/js/custom.js"></script>
     <script src="../../assets/js/forms.js"></script>
+	
+	<script type="text/javascript">
+		function f(str){
+                var sub_menu = document.getElementById(str);
+                var dis_v = sub_menu.style.display;
+                
+                if(dis_v == "block")
+                    sub_menu.style.display = "none";
+                else
+                    sub_menu.style.display = "block";
+                    
+            }
+	</script>
 
 </body>
 

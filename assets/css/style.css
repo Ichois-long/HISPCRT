@@ -4403,3 +4403,16 @@ a {
     max-width: 100%;
     height: auto
   }
+
+ .sub_menu {
+    /* display: block; */
+    color: var(--text-primary);
+    text-decoration: none;
+    width: 100%;
+    padding: 0 3.75rem 0 1.25rem;
+    height: 3.125rem;
+    line-height: 3.125rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}

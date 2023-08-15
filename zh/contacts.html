@@ -19,7 +19,15 @@
     <link rel="preload" href="../assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="../assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="../assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+	<style type="text/css">
+		#sub_menu{
+			display: none;
 
+		}
+		ul li:hover{
+			cursor: pointer;
+		}
+	</style>
 </head>
 
 <body>
@@ -53,6 +61,12 @@
                         </li>
                         <li>
                             <a href="contacts.html">联系我们</a>
+                        </li>
+                        <li class="sub_menu" onclick = "f('sub_menu')" >语言
+                            <ul id="sub_menu">
+                                <li><a class="sub_menu" href="../index.html">English</a></li>
+                                <li><a class="sub_menu" href="index.html">简体中文</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -311,6 +325,19 @@
     <script src="../assets/libs/pristine/pristine.min.js"></script>
     <script src="../assets/js/custom.js"></script>
     <script src="../assets/js/forms.js"></script>
+	
+	<script type="text/javascript">
+		function f(str){
+                var sub_menu = document.getElementById(str);
+                var dis_v = sub_menu.style.display;
+                
+                if(dis_v == "block")
+                    sub_menu.style.display = "none";
+                else
+                    sub_menu.style.display = "block";
+                    
+            }
+	</script>
 
 </body>
 </html>
