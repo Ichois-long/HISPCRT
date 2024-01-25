@@ -86,8 +86,8 @@
 
             <li class="sub_menu" onclick = "f('sub_menu')" >Languages
                 <ul id="sub_menu">
-                    <li><a class="sub_menu" href="../index.html">English</a></li>
-                    <li><a class="sub_menu" href="../../zh/news/P20231117.html">简体中文</a></li>
+                    <li><a class="sub_menu" href="../news/P20240119.html">English</a></li>
+                    <li><a class="sub_menu" href="../../zh/news/P20240119.html">简体中文</a></li>
                 </ul>
             </li>
 						</li>
@@ -150,8 +150,8 @@
 											<img src="../../assets\img\earth.png" width="20" alt="">
 										</button>
 										<div class="dropdown-content">
-										  <a href="../index.html">English</a>
-										  <a href="../../zh/news/P20231117.html">简体中文</a>
+										  <a href="../news/P20240119.html">English</a>
+										  <a href="../../zh/news/P20240119.html">简体中文</a>
 										</div>
 									</li>
 								</ul>
@@ -182,7 +182,7 @@
 								<li><a href="../news.html">News</a><i class="material-icons md-18">chevron_right</i></li>
 								<li><a>Paper Delivery</a><i class="material-icons md-18">chevron_right</i></li>
 								<li>
-									Analysis of the Distribution Characteristics and Influencing Factors of Advertising Billboards in Wuhan
+									A New Approach for Solving Location Routing Problems with Deep Reinforcement Learning of Emergency Medical Facility 
 								</li>
 							</ul>
 						</div>
@@ -197,16 +197,16 @@
 							<div class="news-post">
 								<header class="news-post-header">
 									<h2 class="news-post-title">
-										Spatiotemporal Analytics of Environmental Sounds and Influencing Factors Based on Urban Sensor Network Data
+										A New Approach for Solving Location Routing Problems with Deep Reinforcement Learning of Emergency Medical Facility 
 									</h2>
 									<div class="news-post-meta">
 										<div class="news-post-meta-item">
 											<i class="material-icons md-22">access_time</i>
-											<span>November 17, 2023</span>
+											<span>January 19, 2024</span>
 										</div>
 										<div class="news-post-meta-item">
 											<span>by &nbsp;</span>
-											<a href="../team/sucheng.html">Cheng Su</a>
+											<a href="../team/zhoujunyuan.html">Junyuan Zhou</a>
 										</div>
 									</div>
 									<div>
@@ -219,15 +219,15 @@
 											</tr>
 											<tr>
 												<th>English Title</th>
-											   <td>Analysis of the Distribution Characteristics and Influencing Factors of Advertising Billboards in Wuhan</td>
+											   <td>A New Approach for Solving Location Routing Problems with Deep Reinforcement Learning of Emergency Medical Facility </td>
 											 </tr>
 											 <tr>
 												 <th>Chinese Title</th>
-												 <td>武汉市广告牌的分布特点及影响因素分析</td>
+												 <td>一种基于深度强化学习求解应急医疗设施选址-路径问题的新方法</td>
 											 </tr>
 											<tr>
 												<th>Authors</th>
-											  <td>Shaohua Wang, Cheng Su, Junyuan Zhou, Xiao Li, Dachuan Xu and Wenyu Wei</td>
+											  <td>Shaohua Wang, Junyuan Zhou, Haojian Liang, Zhenbo Wang, Cheng Su, Xiao Li</td>
 											</tr>
 											<tr>
 												<th>DOI</th>
@@ -235,69 +235,66 @@
 											</tr>
 											<tr>
 												<th>Empirical Research</th>
-											  <td><a href="https://github.com/HIGISX/Distribution-Characteristics-and-Influencing-Factors-of-Billboards">https://github.com/HIGISX/Distribution-Characteristics-and-Influencing-Factors-of-Billboards</a></td>
+											  <td><a href="https://github.com/HIGISX/hispot">https://github.com/HIGISX/hispot</a></td>
 											</tr>
 										  </table>
 									</div>
 								</header>
 								<article class="news-post-article content">
 									<h4>Abstract</h4>
-									<p>The site selection of billboard locations has become crucial in promoting corporate image and expanding brand influence. 
-										Therefore, when choosing billboard placement locations, factors such as target audience and surrounding traffic conditions must be considered to fully leverage the value of billboard advertising. In this article, various analytical methods, and tools such as kernel density analysis, standard ellipse analysis, and geodetector are used to analyze the relationship between factors such as building density, road density, population density, and the number of shared bicycle rentals and returns per kilometer grid with the spatial distribution of advertising billboards in Wuhan City. 
-										Experimental results indicate that advertising billboards in Wuhan City exhibit spatial clustering, and the density of bus routes and stops, as well as the number of shared bicycle rentals and returns per kilometer grid, have a significant impact on their distribution.
+									<p>The Location Routing Problem (LRP) has extensive applications in emergency medical facility selection. It involves a complex spatial optimization problem of selecting the optimal facility locations from a set of demand points and candidate facility locations and planning the most efficient routes. This study introduces a two-stage solution approach based on deep reinforcement learning, which fully leverages the potential of deep reinforcement learning in handling sequential decision problems. Firstly, in the location selection stage, through the interaction between an agent and the environment, the agent needs to choose facility locations from numerous demand points to either maximize overall profit or minimize overall costs. This stage determines central points and allocates demand points to the nearest facility locations. Subsequently, in the route planning stage, the agent decides how to distribute deliveries among the pre-selected facility locations to minimize overall route length or costs. Experimental results demonstrate the effectiveness of this method in addressing location routing problems. It may provide valuable support for responding to emergencies and disaster events, helping decision-makers make more intelligent choices for facility locations and route planning, ultimately enhancing service response speed and efficiency. Furthermore, this method holds broad application potential in other domains, further advancing the development and utilization of deep reinforcement learning in spatial optimization problems. </p>
+									<hr>
+									<h4>Location Routing Problem</h4>
+									<p>LRP jointly considers the facility location problem (FLP) and the vehicle routing problem (VRP). Watson-Gandy and Dohrn, Salhi, S., & Rand, G. K. have proven that the strategy for solving LRP by dismantling LRP into FLP and VRP and solving those problems sequentially is not optimal. Therefore, constructing the solving strategy that could consider FLP and VRP as a unity and solve them simultaneously to find the optimal solution is critical in processing LRP. Currently, the exact and heuristic algorithms are mainly applied to solve LRP.</p>
+									<p>LRP is a traditional strategic-tactical-operational problem that considers a set of potential facilities and a set of customers. The main decisions of LRP are:<br>
+										&emsp;&emsp;&bull; The number and location of facilities to open,<br>
+										&emsp;&emsp;&bull; the allocation of customers to the opened facilities,<br>
+										&emsp;&emsp;&bull; The design of routes to serve customers of each facility using a fleet of vehicles.
+									</p>
+									<p>As with most other models, one cannot capture all aspects of a real-life LRP with one mathematical model. Considering the complex real-life scenarios, LRP has a lot of variant problems with different objectives and constraints. Therefore, identifying the constraints of each sub-problem, such as facility location, allocation, and routing problem, is essential for solving LRP.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240119/zjy1.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Figure 1: An illustrative example of LRP</p>
+									</div>
+									<hr>
+									<h4>Methodology</h4>
+									<p>In the Location Routing Problems (LRPs), there are two main problems to address: location problem and route planning. Both of these problems can be modeled as sequential decision processes. In this section, we propose a two-stage algorithm based on deep reinforcement learning (DRL) to solve LRP, comprising the location problem stage and the route planning stage. In the location problem and routing problem, there are three types of nodes: demand points, logistics centers, and distribution centers.</p>
+									<p><b>（1）Location Problem Stage</b></p>
+									<p>In the location selection stage, we model the problem as a Markov Decision Process (MDP). The intelligent agent needs to choose one or more locations from all demand points to construct facilities, aiming to maximize overall revenue or minimize overall costs. To achieve this, we follow these steps:<br>
+										&emsp;&emsp;&bull; State: Define a state representation that includes the current chosen facility locations, the status of demand points, and other relevant information.<br>
+										&emsp;&emsp;&bull; Action: Define an action space in which the agent can choose the locations for constructing facilities.<br>
+										&emsp;&emsp;&bull; Reward: Design a reward function so that the agent can receive appropriate reward signals based on the chosen locations. Rewards can consider factors such as costs, revenues, and the degree of demand fulfillment.
+									</p>
+									<p>Once this stage is completed, the facilities' deployment locations are determined, and these points are considered as central points, with each demand point assigned to the nearest facility point.</p>
+									<p><b>（2）Route Planning Stage</b></p>
+									<p>In the route planning stage, the routing problem can also be modeled as a Markov Decision Process. In this stage, the intelligent agent needs to decide how to allocate deliveries between the selected facility locations to minimize the overall path length or costs. </p>
+									<p>The two-stage algorithm's solution framework is illustrated as follows:</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<img data-src="../../assets/img/news-photo/P20240119/zjy2.png" class="img-responsive lazy" alt="">
+										<p style = "text-align:center;color:dimgrey;">Figure 2: The structure of the two-stage algorithm for solving emergency medical facility location problem.</p>
+									</div>
+									<p><b>（3）Deep Reinforcement Learning Algorithm</b></p>
+									<p>We are using the REINFORCE algorithm to train our Attention Model- Facility Location Problem (AM-FLP) and Attention Model - Vehicle Routing Problem (AM-VRP). This algorithm is a type of policy gradient method. The algorithm steps are as follows:<br>
+										&emsp;&emsp;&bull; <b>Define Policy Functions π(a|s): </b>Define a policy function π(a|s) that describes the probability distribution of taking action a given a state s. We use π_FLP (a|s) and π_VRP (a|s) to represent the policy functions for the AM-FLP and AM-VRP, respectively.<br>
+										&emsp;&emsp;&bull; <b>Sample Trajectories:</b> For each trajectory, calculate the cumulative return. The return reflects the quality of executing the policy during a single attempt.<br>
+										&emsp;&emsp;&bull; <b>Compute Returns:</b> For each trajectory, compute the cumulative return. The return represents the quality of executing the policy in a single attempt.<br>
+										&emsp;&emsp;&bull; <b>Update Policy:</b> Based on the computed gradient information, employ gradient descent to update the parameters of the policy function, with the goal of increasing the expected return.<br>
+										&emsp;&emsp;&bull; <b>Repeat Training:</b> Continuously repeat the above steps until the policy function converges to a satisfactory policy or reaches a predefined number of training iterations.
+
 									</p>
 									<hr>
-									<h4>Background</h4>
-									<p>In today's market environment, the promotion of corporate image and the expansion of brand influence is an important task that every enterprise must face. To stand out in the competitive market, in addition to continuous innovation and optimization in advertising content, the choice of advertising location also becomes crucial. Therefore, reasonable billboard location selection has become an indispensable part of corporate image promotion strategy. When choosing the location of billboards, it is necessary to fully consider the brand image, audience groups, the surrounding advertising environment, as well as traffic conditions visibility, and other factors.</p>
-									<p>The optimization of billboard placement is greatly facilitated by an understanding of the current spatial distribution of existing billboards. This understanding can provide valuable insights into the factors that should be considered in the site selection process. Traditional methods relying on subjective memory and experience are prone to distortion over time, making them less reliable. However, obtaining specific and comprehensive analytical results can be time-consuming and resource-intensive. The development of spatial analysis methods has effectively addressed this issue. In this study, we employ spatial analysis methods such as standard deviation ellipses and geographic detectors to investigate the spatial distribution of billboards in Wuhan, as well as the factors influencing their distribution. This research aims to provide relevant insights for optimizing billboard placement.</p>
+									<h4>Experiments and Analysis</h4>
+									<p>Deep reinforcement learning, through continuous interaction between an agent and its environment to maximize rewards, is effective in handling sequential decision problems. We propose a new approach to the two-stage location routing problem (LRP) based on deep reinforcement learning. In this section, we first discuss how to utilize deep reinforcement learning to solve LRP, then implement problem-solving using this framework, and finally conduct generalization experiments.</p>
+									<p>For the LRP, we constructed two different attention model, AM-FLP and AM-VRP, for solving location problem and routing problem, respectively. We randomly generated 2000 instances for evaluating results. Each example consists of 50 demand points, and the task is to select 8 points out of the 50 demand points as central points. Then, following a greedy approach, the remaining demand points are assigned to the nearest central points, resulting in the classification of all nodes into 8 categories. Finally, for each category, the shortest path is chosen to traverse all the nodes. The experimental results are shown in Table 1. N represents the number of the demand points and p presents the number of the centers.</p>
+									<div class="news-post-img item-bordered item-border-radius">
+										<p style = "text-align:center;color:dimgrey;">Table 1 The comparison results of Gurobi vs. GA vs. AM for location routing problem on N=50, p=8</p>
+										<img data-src="../../assets/img/news-photo/P20240119/zjy3.png" class="img-responsive lazy" alt="">
+									</div>
+									<p>We divided the solution of the location-routing problem into two stages. Table 1 illustrates three different methods in terms of their objective functions and solution times in the location selection stage and the path planning stage. Gurobi, being recognized as the best solver, performs exceptionally well in this problem. It consistently obtains optimal solutions quickly, even in instances with 50 nodes. On the other hand, Genetic Algorithm (GA) is a heuristic algorithm, and its results are relatively less favorable compared to the other two algorithms. The gap between its objective values and the optimal solutions is the widest, which may be attributed to the parameter settings within the genetic algorithm. Our proposed method, which employs deep reinforcement learning (AM), exhibits a smaller gap from the optimal solutions compared to GA. Furthermore, it boasts the shortest solution times among the three methods. This suggests that our proposed approach achieves a balance between solution time and accuracy to some extent, making it a highly promising method. Overall, the results demonstrate that our proposed approach has the potential to be a valuable contribution in addressing the trade-off between solution time and precision in the context of the location-routing problem. More details of the code is available at:<a href="https://github.com/HIGISX/hispot">https://github.com/HIGISX/hispot</a>.</p>
 									<hr>
-									<h4>Results</h4>
-									<p><b>(1) Spatial Analysis</b></p>
-									<p>It is evident that billboard locations are notably concentrated within the central urban regions of Wuhan City. This concentration includes districts such as Jianghan District, Hanyang District, and Wuchang District. This observation aligns seamlessly with the primary areas of urban development within Wuhan City, specifically the convergence point of the Hanjiang and Yangtze Rivers. These regions are known for their robust economic development and consequently exhibit a higher demand for billboards.</p>
-									<div class="news-post-img item-bordered item-border-radius">
-										<img data-src="../../assets/img/news-photo/P20231117/sc1.png" class="img-responsive lazy" alt="">
-										<p style = "text-align:center;color:dimgrey;">Figure 1: Spatial Distribution of Billboards in Wuhan City</p>
-									</div>
-									<p><b>(2) Standard Deviational Ellipse</b></p>
-									<p>After conversion, it is determined that an error ellipse, centered at approximately 30°34'40.74"N, 114°18'21.81"E, can effectively encompass around 98% of the billboard locations within Wuhan City. Moreover, it becomes apparent that the clustered regions of billboards predominantly follow a northwest to southeast distribution pattern, covering a substantial portion of the central urban development zone in Wuhan City.</p>
-									<div class="news-post-img item-bordered item-border-radius">
-										<img data-src="../../assets/img/news-photo/P20231117/sc2.png" class="img-responsive lazy" alt="">
-										<p style = "text-align:center;color:dimgrey;">Figure 2: Directional Distribution Analysis (Standard Error Ellipses)</p>
-										<p style = "text-align:center;color:dimgrey;">Table 1. Error Ellipse Parameters</p>
-										<img data-src="../../assets/img/news-photo/P20231117/sc3.png" class="img-responsive lazy" alt="">
-									</div>
-									<p><b>(3) Average Nearest Neighbor</b></p>
-									<p>The spatial pattern among the points is determined by comparing the average distance of the nearest point pairs. In the analysis report, showing a p-value less than 0.05. This finding suggests that billboard locations are not randomly distributed, as also highlighted in the report. Notably, the Z-score in the report is a very small negative value, reinforcing the conclusion that the distribution of billboards in Wuhan City exhibits significant clustering and is not a result of random data generation.</p>
-									<div class="news-post-img item-bordered item-border-radius">
-										<img data-src="../../assets/img/news-photo/P20231117/sc4.png" class="img-responsive lazy" alt="">
-										<p style = "text-align:center;color:dimgrey;">Figure 3: The report on the average nearest neighbor results</p>
-									</div>
-									<p><b>(4) Hot Spot Analysis and Kernel Density Analysis</b></p>
-									<p>The hot spot analysis results show that the distribution of billboards in Wuhan presents an obvious hot spot aggregation pattern. In contrast, the cold spots are distributed in a ring pattern, mainly in the farther outer regions. The results of the kernel density analysis show a unique multi-modal pattern, indicating polarization.</p>
-									<div class="news-post-img item-bordered item-border-radius">
-										<img data-src="../../assets/img/news-photo/P20231117/sc5.png" class="img-responsive lazy" alt="">
-										<p style = "text-align:center;color:dimgrey;">Figure 4: Hotspot analysis</p>
-										<img data-src="../../assets/img/news-photo/P20231117/sc6.png" class="img-responsive lazy" alt="">
-										<p style = "text-align:center;color:dimgrey;">Figure 5: Hotspot analysis</p>
-									</div>
-									<p><b>(5) Geodetector</b></p>
-									<p>Bus Route Density has the highest explanatory power, indicating that the spatial distribution of billboards in Wuhan City is most strongly influenced by the distribution of bus route density, meaning that there is a strong consistency between the bus route density and the spatial distribution of billboards in Wuhan City. Secondary factors are the Number of Shared Bicycle Returns and the Number of Shared Bicycle Rentals per Kilometer Grid, indicating that shared bicycles are also important factors affecting the spatial distribution of billboards in Wuhan City. The results of the Interaction Detector are shown in the figure, indicating that the spatial differentiation pattern of billboards in Wuhan City is not controlled by a single factor but is the result of the combined action of multiple factors. Among these interactions, the interactions between Bus Route Density and Charging Station Density, are relatively large. The interactions between Road Density and Population Density and are relatively small.</p>
-									<div class="news-post-img item-bordered item-border-radius">
-										<p style = "text-align:center;color:dimgrey;">Table 2. Factor Detector Results</p>
-										<img data-src="../../assets/img/news-photo/P20231117/sc7.png" class="img-responsive lazy" alt="">
-									</div>
-									<div class="news-post-img item-bordered item-border-radius">
-										<img data-src="../../assets/img/news-photo/P20231117/sc8.png" class="img-responsive lazy" alt="">
-										<p style = "text-align:center;color:dimgrey;">Figure 6: Interaction Detector Results</p>
-									</div>
-									<hr>
-									<h4>Conclusion</h4>
-									<p>1.By utilizing various spatial analysis methods, we explore the influence of different factors on the spatial distribution of billboards.</p>
-									<p>2.From the aforementioned analysis, it is evident that the optimal placement of billboards should be closely associated with public transportation infrastructure and other relevant structures.</p>
-									<p>3.The methods and tools employed in this paper can serve as a reference for spatial distribution analysis in other cities.</p>
-									<p>4.This study has certain limitations, such as the failure to consider the impact of competition between different types of billboards on their placement. In the future, we will continue to improve and expand spatial analysis methods, focusing on delving deeper into the spatial distribution patterns of billboards in Wuhan.</p>
-									<p>5.This will provide more valuable insights for optimizing the placement of billboards.</p>
-									</article>
+									<h4>Conclusion and Future Works</h4>
+									<p>The location routing problem holds significant importance in practical production. It directly impacts resource allocation, logistics efficiency, and service quality for businesses, making it crucial for their operations and competitiveness. This study has introduced an innovative solution—a two-stage approach based on deep reinforcement learning—to address the location routing problem, with a specific focus on emergency medical facility selection. This method leverages the full potential of deep reinforcement learning in tackling sequential decision problems. Through the interaction between the agent and the environment, it effectively optimizes the selection of emergency medical facility locations and route planning, enhancing overall efficiency and quality. This research provides a new and efficient approach for the selection of emergency medical facilities, holding significant promise for practical applications and offering robust support and decision-making tools for addressing emergencies and disasters. Future studies could further explore the method's generalization capabilities and its potential applications in other domains, thereby extending its practical value.</p>
+								</article>
 							</div>
 						</div>
 					</div>
